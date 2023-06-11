@@ -5,10 +5,10 @@ public class PessoaJuridica extends Pessoa{
 		super(nome, idade);
 		setCNPJ(CNPJ);
 	}
-	void setCNPJ(String CNPJ) {
+	public void setCNPJ(String CNPJ) {
 		this.CNPJ = CNPJ;
 	}
-	String getCNPJ() {
+	public String getCNPJ() {
 		return CNPJ;
 	}
 
